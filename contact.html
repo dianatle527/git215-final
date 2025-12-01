@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <title>Silverpine Summit | Contact</title>
+    
+    <meta name="author" content="Diana Le">
+    <meta name="description" content="Silverpine Summit Resort Contact Page">
+
+    <link rel="icon" type="image/png" href="Final-1/images/mountain-ski-resort-logo-clipart-xl.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Rokkitt:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1><a href="./index.html">Silverpine Summit</a></h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">Accommodations</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact">
+            <div class="message">
+                <h2>Contact Us</h2>
+                <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+                <p>Required fields marked with a *</p>
+                <img src="Final-1/images/swiss-peak.jpg" alt="swiss peak">
+            </div>
+
+            <div class="form">
+                <form action="https://wp.zybooks.com/form-viewer.php" method="POST">
+
+                    <label for="fullname">Full Name*: </label>
+                    <input type="text" id="fullname" name="fullname" required>
+
+                    <label for="email">Email*: </label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone*: </label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                    <p>Preferred contact method:</p>
+
+                    <div class="radio">
+                        <input type="radio" id="contact-email" name="pref-contact" value="pref-email" required>
+                        <label for="contact-email">Email</label>
+
+                        <input type="radio" id="contact-phone" name="pref-contact" value="pref-phone" required>
+                        <label for="contact-phone">Phone</label>
+                    </div>
+
+                    <label for="comments">Comments*:</label>
+                    <textarea id="comments" name="comments" rows="4"></textarea>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright © 2025 Silverpine Summit</p>
+        <p>This site is for educational purposes only</p>
+    </footer>

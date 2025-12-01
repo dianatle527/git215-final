@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(Final-1/images/swiss-valley.jpg);
+    background-size: cover;
+    background-position: center; 
+    height: 450px;  
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+body {
+    background-color: #b8c0b4;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='%23ffffff' fill-opacity='0.4'%3E%3Cpath fill-rule='evenodd' d='M11 0l5 20H6l5-20zm42 31a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM0 72h40v4H0v-4zm0-8h31v4H0v-4zm20-16h20v4H20v-4zM0 56h40v4H0v-4zm63-25a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM53 41a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-30 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-28-8a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zM56 5a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zm-3 46a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM21 0l5 20H16l5-20zm43 64v-4h-4v4h-4v4h4v4h4v-4h4v-4h-4zM36 13h4v4h-4v-4zm4 4h4v4h-4v-4zm-4 4h4v4h-4v-4zm8-8h4v4h-4v-4z'/%3E%3C/g%3E%3C/svg%3E");  
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+    padding: 75px 0 0 0;
+    font-family: 'Berkshire Swash', cursive;
+    letter-spacing: 5px;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+    color: rgb(6, 51, 6);
+}
+
+h1 a:visited, h1 a:link {
+    color: rgb(6, 51, 6);
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 75px 0;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Rowdies', cursive;
+    color: rgb(255, 255, 255);
+}
+
+nav li {
+    background-color: rgb(63, 114, 63) ;
+    padding: 30px;
+    border-radius: 50px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+nav a:visited, nav a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    margin: 20px;
+}
+
+.hero h2 {
+    font-size: 50px;
+    margin: 75px 50px 30px 50px;
+    font-family: 'Berkshire Swash', cursive;
+    letter-spacing: 2.5px;
+    color: #223124;
+}
+
+.hero p {
+    font-size: 20px;
+    margin: 20px 200px 100px 150px;
+    line-height: 1.5;
+    font-size: 25px;
+    font-family: 'Rokkitt', serif;
+    background-color: #d4dfd2;
+    border-radius: 50px;
+    padding: 20px;
+    color: #3f3f3f;
+}
+
+.attractions {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.attractions p{
+    line-height: 1.6;
+    margin: 20px 75px 50px 75px;
+    font-family: 'Rokkitt', serif;
+    background-color: #d4dfd2;
+    border-radius: 50px;
+    padding: 20px;
+    color: #3f3f3f;
+}
+
+.chalet {
+    text-align: center;
+}
+
+.chalet h3 {
+    font-size: 30px;
+    margin: 30px 50px 15px 50px;
+    color: #223124;
+    font-family: 'Rowdies', cursive;
+}
+
+.chalet p {
+    font-size: 18px;
+    margin: 20px 75px 50px 75px;
+    line-height: 1.5;
+}
+
+img {
+    border-radius: 10px;
+    box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.2);
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 50px 500px 50px 500px;
+    align-items: start;
+    gap: 50px;
+}
+
+.message h2 {
+    font-size: 30px;
+    color: #223124;
+    font-family: 'Rowdies', cursive;
+    text-align: center;
+}
+
+.message {
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: 'Rokkitt', serif;
+    background-color: #d4dfd2;
+    border-radius: 50px;
+    padding: 30px;
+    color: #3f3f3f;
+    text-align: center;
+}
+
+.message p {
+    margin: 10px auto 15px auto;
+}
+
+.radio {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#contact-email, #contact-phone {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.form {
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: 'Rowdies', serif;
+    background-color: #213f1c;
+    border-radius: 50px;
+    padding: 40px;
+    color: #cacaca;
+    letter-spacing: 1.5px;
+}
+
+input[type="submit"] {
+    background-color: #85a388;
+    color: #ffffff;
+    font-size: 30px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: 'Rowdies', cursive;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input {
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+
+textarea {
+    border-radius: 40px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+footer {
+    background-color: #516953;
+    text-align: center;
+    padding: 40px 0;
+    margin-top: 50px;
+    line-height: 1.5;
+}
+
